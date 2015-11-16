@@ -1,0 +1,20 @@
+It goes like this...
+
+MAJOR.MINOR.PATCH, ie: 1.5.7
+
+Where...
+
+MAJOR = Big Changes. Backward compatability not gauranteed.
+MINOR = Features were added. Code is backward compatible and will not break.
+PATCH = Bugs were fixed. Code will not break.
+
+So, we call it _semantic versioning_ because the numbers mean something.
+
+In Node, it's very important to understand the basic of sematic versioning. All modules on NPM use it. You can see this in the "dependencies" and "devDependencies" objects, where the following symbols will be used:
+
+^ = okay to upgrade to the most recent MINOR release
+~ = okay to upgrade to the most recent PATCH release
+(nothing) = not okay to upgrade
+
+
+The official docs are at semver.org

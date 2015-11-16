@@ -1,0 +1,16 @@
+npm install <package_name> --save
+= install <package_name> and save a reference to it, marking it as a depencency, in the package.json file. the package.json is so great b/c it makes things portable!
+
+npm install <package_name> --save-dev
+= install <package_name> and save a reference to it, marking it as a _development_ depencency, in the package.json file.
+
+npm install
+= look at the `package.json` file and install all of the "dependencies" and *"devDependencies"
+
+npm update
+= look at the `package.json` file and update all of the "dependencies" and *"devDependencies" based on the update rule (~,^, etc)
+
+npm install -g <package_name>
+= install <package_name> _globally_. IE: don't install <package_name> in to our projects "node_modules" directory, rather install the package system-wide.
+
+Note, when you deploy an application, most hosting providers that deal with Node will have a way to install your dependencies as part of their process. For this reason, you shouldn't need to deploy anything in your /node_modules directory. Also, it will know that only "dependencies" need to be installed, _not_ "devDependencies" that are only neccessary during the development process.
