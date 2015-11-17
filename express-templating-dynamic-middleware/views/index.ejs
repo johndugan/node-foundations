@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../assets/styles.css" type="text/css" rel="stylesheet" />
+    <title>Express Templating</title>
+</head>
+<body>
+    <h1>Express EJS Template</h1>
+    <ul>
+        <% for (var i = 0; i < 3; i++) { %>
+            <li>Loop Number: <%= i+1 %></li>
+        <% } %>
+    </ul>
+</body>
+</html>

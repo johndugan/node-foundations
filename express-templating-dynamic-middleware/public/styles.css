@@ -1,0 +1,25 @@
+body {
+    padding: 2em;
+    background: #333;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.875em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

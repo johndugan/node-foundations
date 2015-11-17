@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/assets/styles.css" type="text/css" rel="stylesheet" />
+    <title>Express Templating</title>
+</head>
+<body>
+    <h1>Item: <%= ID %></h1>
+    <p>SKU: <%= SKU %></p>
+    <% if (Size && Color) { %>
+        <ul>
+            <li>Size: <%= Size %></li>
+            <li>Color: <%= Color %></li>
+        </ul>
+    <% } %>
+    <img width="1992" height="729" src="/assets/batman.png" alt="Batman symbol" />
+</body>
+</html>
