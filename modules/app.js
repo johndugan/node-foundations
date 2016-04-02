@@ -6,6 +6,12 @@ var smallModule = require('./small-module');
 // files within the "mega-module" directory.
 var megaModule = require('./mega-module');
 
+/*
+    ES6
+    import smallModule from './small-module';
+    import megaModule from './mega-module';
+ */
+
 smallModule();
 
 console.log(megaModule.add(2,2));

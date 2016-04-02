@@ -12,3 +12,7 @@ var curriculum = function() {
 };
 
 module.exports = curriculum;
+/*
+    ES6
+    export default curriculum
+ */
